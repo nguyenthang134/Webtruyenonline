@@ -1,5 +1,33 @@
-head{
+#head{
     position: relative;
     top: 0px;
-    left: 0px;
+    left: 10px;
+    background-color: deepskyblue;
+    padding: 10px 10px;
+}
+#section{
+    position: relative;
+    top: 10px;
+    left:10px;
+    border:1px solid black;
+    width:70%;
+    height: 700px;
+}
+
+#aside{
+    position: absolute;
+    top:60px;
+    left: 75%;
+    border:1px solid black;
+    width:20%;
+    height: 700px;
+}
+
+footer{
+    border:1px solid black;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    width:100%;
+
 }
