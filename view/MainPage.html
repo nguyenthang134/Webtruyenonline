@@ -2,30 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Main page</title>
     <link rel="stylesheet" type="text/css" href="../css/MainPage.css">
 </head>
 <body>
-    <header id="head">
-        <span style="margin-left: 100px;  font-size:20px; color: white;">The loai</span>
-        <select>
-            <option>Ngon tinh</option>
-            <option>Trinh tham</option>
-            <option>Tieu thuyet</option>
-            <option>Hai</option>
-            <option>Thieu nhi</option>
+    <header>
+        <a href="MainPage.html" ><img src="../img/Book-icon.png" alt="Home"></a>
+        <span style="margin-left: 10px;  font-size:20px; color: white;">Thể loại</span>
+        <select id="category" onchange="javascript:location.href = this.value;">
+            <option >Tiên Hiệp</option>
+            <option value="BookDescriptionPage.html">Kiếm hiệp</option>
+            <option>Ngôn tình</option>
+            <option>Lịch sử</option>
+            <option>Trinh thám</option>
+            <option>Tiểu thuyết</option>
+            <option>Võng du</option>
         </select>
     </header>
-    <section id="section">
-        <h2>Truyện mới cập nhật</h2>
+    <section>
+        <article>
+            <h2>Truyện mới cập nhật</h2>
+            <div class="book">
+                <a href="BookDescriptionPage.html"><img src="../img/tieu%20thuyet/longhuyetchienthan1ufynkj7ie.jpg"></a>
+                <p class="book-describe">Long huyết chiến thần</p>
+            </div>
+            <div class="book">
+                <img src="../img/tieu%20thuyet/daichuateFjfphmK9Ra.jpg">
+                <p class="book-describe">Đại chúa </p>
+            </div>
+            <div class="book">
+                <img src="../img/tieu%20thuyet/nunhansaulungdequocthientaitieuvuongphi8xjxJDf5PI.jpg">
+                <p class="book-describe">Nữ nhân sau lưng đế quốc</p>
+            </div>
+            <div class="book">
+                <img src="../img/tien%20hiep/debakwsndeXHet.jpg">
+                <p class="book-describe">Đế bá</p>
+            </div>
+            <div class="book">
+                <img src="../img/tien%20hiep/linhvucGhklYnDKsX.jpg">
+                <p class="book-describe">Linh Vực</p>
+            </div>
+            <div class="book">
+                <img src="../img/tien%20hiep/nhatthechitonLk3H2xvUBp.jpg">
+                <p class="book-describe">Nhất thế chí tôn</p>
+            </div>
+            <div class="book">
+                <img src="../img/ngon%20tinh/linhvucGhklYnDKsX.jpg">
+                <p class="book-describe">Hôn Sủng Hôn Nhân Giá Ngàn Vàng</p>
+            </div>
+            <div class="book">
+                <img src="../img/ngon%20tinh/langvuongtonggiamdocvoyeuduoccungmahoangU4tDy8iuRB.jpg">
+                <p class="book-describe">Lang Vương Tổng Giám Đốc Vợ Yêu Được Cưng Mà Hoảng</p>
+            </div>
+            <div class="book">
+                <img src="../img/tien%20hiep/nhatthechitonLk3H2xvUBp.jpg">
+                <p class="book-describe">Nhất thế chí tôn</p>
+            </div>
+        </article>
+        <aside>
+            <h2>Thể loại</h2>
+            <ul>
+                <li><a href="" >Tiên hiệp</a></li>
+                <li><a href="" >Kiếm hiệp</a></li>
+                <li><a href="" >Ngôn tình</a></li>
+                <li><a href="" >Lịch sử</a></li>
+                <li><a href="" >Trinh thám</a></li>
+                <li><a href="" >Tiểu thuyết</a></li>
+                <li><a href="" >Võng du</a></li>
+            </ul>
+        </aside>
     </section>
-    <aside id="aside">
-        <h2>The loai</h2>
-    </aside>
+
     <footer>
+        <p>
         Website đọc truyện online chất lượng hàng đầu việt nam, với nhiều truyện tiên hiệp, truyện kiếm hiệp, truyện<br>
         ngôn tình, truyện teen, truyện đô thị được chọn lọc và đăng tải một cách kĩ lưỡng.Mời bạn đọc và ủng hộ website<br>
-        bằng cách giới thiệu đến bạn bè, chúc bạn có những giây phút đọc truyện thư giãn thật bổ ích. Google
+        bằng cách giới thiệu đến bạn bè, chúc bạn có những giây phút đọc truyện thư giãn thật bổ ích.
+        </p>
+        <p style="margin-left: 300px;">
+            Copy right 2017<br>
+            Contact us
+        </p>
     </footer>
 </body>
 </html>
